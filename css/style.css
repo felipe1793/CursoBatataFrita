@@ -1,0 +1,79 @@
+.tema1 {
+    --color1: #f37140;
+    --color2: #faa754;
+    --color3: #fcf27d;
+    --color4: #ffffff;
+    --color5: #2a2a2a;
+    --cor-de-fundo: #e2e2e2;
+    --alternativa: #06689d;
+}
+
+.tema2 {
+    --color1: #06689d;
+    --color2: #014466;
+    --color3: #fcf27d;
+    --color4: #2a2a2a;
+    --color5: #ffffff;
+    --cor-de-fundo: #202020;
+    --alternativa: #f37140;
+}
+
+.semBorda {
+    border: none;
+}
+
+.card-title {
+    color: #FFF;
+}
+
+.sombra {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+}
+
+.alternativa {
+    color: var(--alternativa);
+}
+
+.esconde {
+    display: none;
+}
+
+.selecionado {
+    background-color: var(--color1);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1, h2, h3, h4, p, li {
+    color: var(--color5);
+}
+
+header nav {
+    background-color: var(--color1);
+}
+
+div img {
+    filter: sepia(0%);
+}
+
+section.container.mt-2.pt-2.border.shadow-lg.rounded {
+    background-color: var(--color4);
+}
+
+span.ms-1 {
+    color: var(--color5);
+}
+
+div.card-header{
+    background-color: var(--color4);
+}
+
+div.card-body{
+    background-color: var(--color4);
+}
+
+footer {
+    background-color: var(--color1);
+}

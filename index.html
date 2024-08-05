@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batata Frita Perfeita</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="tema1">
+    <header class="fixed-top">
+        <nav class="">
+            <div class="container text-center">
+                <div class="d-flex">
+                    <div class="flex-grow-1">
+                        <h2>
+                            Prótato
+                        </h2>
+                    </div>
+                    <div class="fs-3">
+                        <i class="bi bi-sun" id="claro"></i><i class="bi bi-moon esconde" id="escuro"></i>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <div class="card text-bg-dark semBorda">
+                    <img src="./img/Fundo-Batata-frita.jpg" class="card-img" alt="Imagem de fundo com batata frita">
+                    <div class="card-img-overlay sombra">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <h5 class="card-title fs-1">A batata frita perfeita</h5>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="container mt-2 pt-2 border shadow-lg rounded">
+            <article class="container rounded-3">
+                <div>
+                    <p>Boas vindas !</p>
+                    <p>Batata frita é um termo que refere-se a um alimento processado, produto da preparação culinária
+                        de batata cortada previamente em: tiras, palitos finíssimos (batata palha), rodelas ou folhas e,
+                        que posteriormente são fritas.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="container mt-2 pt-2 border shadow-lg rounded">
+            <article class="container rounded-3">
+                <div>
+                    <h2 class="text-center">História</h2>
+                    <p>Ainda se questiona a verdadeira origem da batata frita. A discussão principal está entre Bélgica,
+                        França e Espanha. O historiador belga Jo Gerard já menciona batatas serem fritas em 1681 nos
+                        Países Baixos, hoje na região da Bélgica. Na França há registros de receitas de batatas fritas
+                        no livro Les Soupers de la Cour, de Menon, em 1758. Em alguns países o nome do prato faz alusão
+                        à origem francesa, como french fries (fritas francesas), em inglês. Há ainda a alegação do prato
+                        ter sido criado na Espanha, primeiro país a receber as batatas do Novo Mundo. De acordo com o
+                        curador do Frietmuseum de Bruges, na Bélgica, o Professor Paul Ilegems, Santa Teresa d'Ávila
+                        teria fritado as primeiras batatas, de acordo com o costume da cozinha Mediterrânea de pratos
+                        fritos. <br> Existe um documento de 29 de novembro de 1626, sobre uma refeição oferecida por
+                        índios no Forte de Nacimiento, no Chile, para os conquistadores espanhóis, em que relata a
+                        presença de batatas fritas no prato dos convidados.</p>
+                    <p>
+                        <em>Clique no play e saiba mais sobre a historia da batata frita</em>
+                    </p>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="rounded" src="https://www.youtube.com/embed/CFWql0gs8ek"
+                            title="Como surgiu a Batata Frita?" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <div class="col-lg-10 mx-auto py-4 border border-warning rounded">
+                        <div class="px-4 gy-4">
+                            <p><strong>1.</strong> A batata frita é de origem francesa ?
+                            </p>
+                            <p>
+                                A afirmação acima é verdadeira ou falsa?
+                            </p>
+                        </div>
+                        <div class="gy-4" id="questao1">
+                            <div class="row">
+                                <div class="d-grid gap-2 col-md-3 mx-auto p-3 ">
+                                    <button class="btn btn-outline-warning" id="verdadeiro"><span>Verdadeira</span></button>
+                                </div>
+                                <div class="d-grid gap-2 col-md-3 mx-auto p-3">
+                                    <button class="btn btn-outline-warning" id="falso"><span>Falsa</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="container mt-2 pt-2 border shadow-lg rounded">
+            <article class="container rounded-3">
+                <div>
+                    <h2 class="text-center">FORMAS DE PREPARO</h2>
+                    <div>
+                        <h3>Batata Frita na Air Fryer</h3>
+                        <h4>Ingredientes:</h4>
+                        <ul>
+                            <li>300 gramas de batata</li>
+                            <li>1 colher (sopa) de óleo de soja</li>
+                            <li>Sal a gosto</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Como Fazer</h4>
+                        <ol>
+                            <li>Descasque as batatas e corte em palitos. Passe pela água, escorra e seque muito bem com
+                                papel toalha</li>
+                            <li>1 colher (sopa) de óleo de soja</li>
+                            <li>Sal a gosto</li>
+                        </ol>
+                    </div>
+                    <p>
+                        <em>Clique no play e saiba mais sobre como preparar a batata frita na Air Fryer</em>
+                    </p>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="rounded" src="https://www.youtube.com/embed/KZr11VjLm7Y"
+                            title="Batata Chips na AirFryer" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <div class="row p-3 py-4">
+                    <div class="col-lg-10 mx-auto py-5 border border-warning rounded">
+                        <div class="m-3">
+                            <p><strong>2.</strong> Qual a quantidade de sal ideal para salgar a batata frita ?.
+                            </p>
+                        </div>
+                        <div class="row m-2">
+                            <div class="list-group-checkable d-grid gap-2" id="alternativasEscolhaUnica">
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica1" dataAlternativa1="a">
+                                <label class="list-group-item  border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica1">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">A)</span>
+                                            <span class="small opacity-80">
+                                                10 gramas
+                                            </span>
+                                        </p>
+                                    </div>
+                                </label>
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica2" dataAlternativa1="b">
+                                <label class="list-group-item border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica2">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">B)</span>
+                                            <span class="small opacity-80">25 gramas </span>
+                                        </p>
+                                    </div>
+                                </label>
+
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica3" dataAlternativa1="c">
+                                <label class="list-group-item border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica3">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">C)</span>
+                                            <span class="small opacity-80">50 gramas
+                                            </span>
+                                        </p>
+                                    </div>
+                                </label>
+
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica4" dataAlternativa1="d">
+                                <label class="list-group-item border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica4">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">D)</span>
+                                            <span class="small opacity-80">Sal a gosto.</span>
+                                        </p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row m-2" id="reposta1">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Batata Frita Crocante</h3>
+                    <h4>Ingredientes:</h4>
+                    <ul>
+                        <li>500 gramas de batata asterix</li>
+                        <li>3 colheres de sopa de Amido de Milho Maizena</li>
+                        <li>1 colher de chá de sal</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Como Fazer</h4>
+                    <ol>
+                        <li>Descasque as batatas e corte-a em palitos finos. Disponha os palitos bem separados em uma
+                            bandeja ou forma grande e leve para o freezer por 30 minutos</li>
+                        <li>Retire os palitos de batata do freezer e coloque-os em uma tigela, polvilhe o amido de milho
+                            MAIZENA® e misture novamente para que todos os palitos fiquem bem envolvidos na MAIZENA®
+                        </li>
+                        <li>Peneire bem as batatas empanadas com Maizena para não empelotar na hora da fritura</li>
+                        <li>Em uma panela média, frite a batata, aos poucos, em imersão, em óleo quente, por 3 minutos,
+                            ou até dourarem.</li>
+                        <li>Escorra em papel-toalha, polvilhe o sal e sirva em seguida.</li>
+                    </ol>
+                </div>
+                <div>
+                    <p>
+                        <em>Clique no play e saiba mais sobre como preparar a batata frita crocante</em>
+                    </p>
+                </div>
+                
+                <div class="col-lg-8 mx-auto">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="rounded" src="https://www.youtube.com/embed/8sgaPkbUNYI"
+                            title="Batata frita Crocante" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <div class="row p-3 py-4">
+                    <div class="col-lg-10 mx-auto py-5 border border-warning rounded">
+                        <div class="m-3">
+                            <p><strong>3.</strong> Quanto tempo a batata deve ficar no freezer ?.
+                            </p>
+                        </div>
+                        <div class="row m-2">
+                            <div class="list-group-checkable d-grid gap-2" id="alternativasEscolhaUnica2">
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica2-1" dataAlternativa1="a">
+                                <label class="list-group-item  border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica2-1">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">A)</span>
+                                            <span class="small opacity-80">
+                                                5 minutos
+                                            </span>
+                                        </p>
+                                    </div>
+                                </label>
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica2-2" dataAlternativa1="b">
+                                <label class="list-group-item border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica2-2">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">B)</span>
+                                            <span class="small opacity-80">15 minutos </span>
+                                        </p>
+                                    </div>
+                                </label>
+
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica2-3" dataAlternativa1="c">
+                                <label class="list-group-item border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica2-3">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">C)</span>
+                                            <span class="small opacity-80">30 minutos
+                                            </span>
+                                        </p>
+                                    </div>
+                                </label>
+
+                                <input class="list-group-item-check pe-none d-none" type="radio"
+                                    name="list-unica-escolha-1" id="ExercicioEscolhaUnica2-4" dataAlternativa1="d">
+                                <label class="list-group-item border border-warning rounded-3"
+                                    for="ExercicioEscolhaUnica2-4">
+                                    <div class="row">
+                                        <p class="pt-3"><span class="alternativa ps-2">D)</span>
+                                            <span class="small opacity-80">45 minutos</span>
+                                        </p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row m-2" id="reposta2">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="container mt-2 mb-5 pt-2 border shadow-lg rounded">
+            <article class="container rounded-3">
+                <div>
+                    <h2 class="text-center">O que aprendemos até aqui</h2>
+                    <p>Nesta aula, você acompanhou a história da batata frita e suas possíveis origens.
+                        E conheceu algumas receitas e suas formas diferentes de preparo, possibilitando novas formas de preparar sua batata frita perfeita.</p>
+                </div>
+
+                <div>
+                    <p>
+                        <em>Clique na imagem para dar zoom</em>
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-center mb-4">
+                    <a data-fancybox="gallery" data-caption="" data-src="./img/o-que-foi-aprendido.png">
+                        <img class="img-fluid rounded-3" src="./img/o-que-foi-aprendido.png"
+                            alt="imagem de um cerebro com uma lampada">
+                    </a>
+                </div>
+
+                <div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Referências
+                        </button>
+                    </div>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Referências</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>A história da batata frita. <strong>Wikipédia</strong>,11 de dez de 2023. Disponível em: https://pt.wikipedia.org/wiki/Batata_frita. Acesso em 04 ago. 2024</p>
+                                    <p>Como surgiu a batata frita. <strong>Marcos Ruschel</strong>,11 de ago. de 2017. Disponível em: https://www.youtube.com/watch?v=CFWql0gs8ek. Acesso em 03 ago. 2024</p>
+                                    <p>Batata frita na Air fryer. <strong>Sabor no Prato</strong>,20 de mai. de 2014. Disponível em: https://www.youtube.com/watch?v=KZr11VjLm7Y. Acesso em 03 ago. 2024</p>
+                                    <p>Batata frita crocante. <strong>Recepedia</strong>,12 de ago. de 2022. Disponível em: https://www.youtube.com/watch?v=8sgaPkbUNYI. Acesso em 03 ago. 2024</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary pulse"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+
+    </main>
+    <footer class="fixed-bottom d-flex justify-content-center">
+        <div>
+            © Prótato
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/modoEscuro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+        })
+    </script>
+
+</body>
+
+</html>
