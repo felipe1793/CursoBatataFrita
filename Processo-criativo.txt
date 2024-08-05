@@ -1,3 +1,6 @@
-A idealização do projeto foi iniciada com uma pesquisa no site do Senai online visando encontrar uma inspiração.
-Logo em seguida foi feito um protótipo no Figma para facilitar a abstração da ideia do projeto.
-E por fim o projeto foi desenvolvido com HTML, CSS e Javascript e algumas bibliotecas.  
+A idealização do projeto foi iniciada com uma pesquisa no site do Senai online para entender o que funciona bem em termos de layout, conteúdo e apresentação.
+Após feita a pesquisa no site do Senai online, foi feito uma pesquisa para encontrar o conteúdo que seria utilizado na página, como a história da batata frita e suas formas de preparo.  
+Logo em seguida foi feito um protótipo no Figma para facilitar a abstração da ideia do projeto. Link do projeto (https://www.figma.com/design/9UrgDW4RjAQZbCBjq4mXOp/Batata-Frita?node-id=0-1&t=GCseDEKbNq5x0Mvh-0)
+E por fim o projeto foi desenvolvido com HTML para a estruturação da página, CSS para a estilização e JavaScript para o dinamismo. Algumas bibliotecas foram utilizadas para garantir uma experiência mais agradável ao usuário.
+
+
